@@ -106,14 +106,6 @@ console.log(capitalize(string4));
 
 
 
-// Array.prototype.rossMap = (cb) => {
-//     for (let i = 0; i < this.length; i++) {
-//         cb(this[i], i, this)
-//     }
-// }
-//
-// let arr = ['aaa', 'bbb'];
 
-// console.log(arr.rossMap((val, ind, ) => ))
 
 

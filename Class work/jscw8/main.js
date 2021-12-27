@@ -82,24 +82,18 @@ for (const aAllElement of aAll) {
 // j) отримує всі елементи 'sub-header' та змінює колір тексту у видаку якщо текст елемнту = content 2 segment .
 // Колір отримати з prompt()
 
-let bgSubHeader2 = prompt('please type color blue or green');
-
-let subHeader2 = document.getElementsByClassName('sub-header');
-for (const subHeader2Element of subHeader2) {
-    console.log(subHeader2);
-    if (subHeader2Element.innerText === 'content 2 segment' && bgSubHeader2 === 'green') {
-        subHeader2Element.style.color = 'green';
-    } else if (subHeader2Element.innerText === 'content 2 segment' && bgSubHeader2 === 'blue') {
-        subHeader2Element.style.color = 'blue';
-    }
-}
-
-// if(num === 2) {
+// let bgSubHeader2 = prompt('please type color blue or green');
 //
-//     if(color === 'green') {
-//
+// let subHeader2 = document.getElementsByClassName('sub-header');
+// for (const subHeader2Element of subHeader2) {
+//     console.log(subHeader2);
+//     if (subHeader2Element.innerText === 'content 2 segment' && bgSubHeader2 === 'green') {
+//         subHeader2Element.style.color = 'green';
+//     } else if (subHeader2Element.innerText === 'content 2 segment' && bgSubHeader2 === 'blue') {
+//         subHeader2Element.style.color = 'blue';
 //     }
 // }
+
 
 // k) отримує елемент з класом content_1 та заміняє  в ньому текст на довільний. Текст отримати з prompt()
 
@@ -110,9 +104,11 @@ textContent1[0].innerText = randomText;
 
 // l) отримати елементи p та змінити їм padding на 20px
 
-let allPlist = document.querySelectorAll("p");
+let allPlist = document.getElementsByTagName('p');
+console.log(allPlist);
 for (const allPlistElement of allPlist) {
     allPlistElement.style.padding = '20px';
+    allPlistElement.style.border = '1px solid green';
 }
 
 // m) отримати елементи з класом text2 та змінити їм текст на назву групи (mon-year. Пример sep-2021)

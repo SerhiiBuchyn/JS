@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 12</title>
+
+    <style>
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap_post {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 10px;
+            row-gap: 10px;
+            justify-content: center;
+            margin: 10px 0 10px;
+        }
+
+        .div_post {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 19%;
+            height: 220px;
+            border: solid 1px olive;
+            border-radius: 10px;
+        }
+
+        .div_post:hover {
+            transition: 2s;
+            background: aquamarine;
+        }
+
+        .wrap_comments {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 1%;
+            row-gap: 10px;
+            justify-content: center;
+            margin: 10px 0 10px;
+        }
+
+        .div_comment {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            width: 17%;
+            height: 220px;
+            border: solid 1px olive;
+            border-radius: 10px;
+
+
+        }
+
+        .div_comment h3 {
+            text-align: center;
+            padding: 2px;
+        }
+
+        .div_comment h4 {
+            text-align: center;
+            padding: 2px;
+        }
+
+        .div_comment h5 {
+            padding: 2px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<!--<select id="page">-->
+<!--    <option value="1">page 1</option>-->
+<!--    <option value="2">page 2</option>-->
+<!--</select>-->
+
+<!--<div class="wrap"></div>-->
+
+<div class="wrap_post"></div>
+
+<hr>
+
+
+
+<script src="main.js"></script>
+
+</body>
+</html>

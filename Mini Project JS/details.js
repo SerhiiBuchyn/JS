@@ -19,7 +19,6 @@
 //         "catchPhrase": "Multi-layered client-server neural-net",
 //         "bs": "harness real-time e-markets"
 
-
 const detailsKey = 'details';
 const userInfo = JSON.parse(localStorage.getItem(detailsKey));
 

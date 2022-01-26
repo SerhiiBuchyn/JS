@@ -5,10 +5,8 @@
 //         "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
 //     },
 
-
 const postDetailsKey = 'postDetails';
 const postInfo = JSON.parse(localStorage.getItem(postDetailsKey));
-
 
 const postWrap = document.createElement('div');
 postWrap.classList.add('post_wrap');
@@ -20,7 +18,6 @@ post.innerHTML = `
 <h4>ID: ${postInfo.id}</h4>
 <h4>Title: ${postInfo.title}</h4>
 <p>body: ${postInfo.body}</p>`;
-
 
 // {
 //     "postId": 1,

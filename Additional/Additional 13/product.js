@@ -44,11 +44,6 @@ for (const product of products) {
     productWrap.append(productDiv);
 }
 
-// 1. Pass id
-// 2. const index = prodcuts.findIndex((product) => product.id === id) // 2
-// 3. prodcuts.splice(index, 1);
-// 4.setItem('prodcuts',prodcuts )
-
 const cleanBtn = document.getElementById('clean_basket');
 
 cleanBtn.onclick = function () {
